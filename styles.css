@@ -1,5 +1,7 @@
 * {
     font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .header {
@@ -22,8 +24,10 @@ body {
 footer {
     width: 100%;
     bottom: 0;
-    height: 60px;
+    height: 80px;
     background-color: #1F2937;
+    color: #f9faf8;
+    font-weight: 200;
 }
 
 .hero-text-main {
@@ -35,12 +39,13 @@ footer {
 .hero-text-secondary {
     color: #e5e7eb;
     font-size: 18px;
-    font-weight:300;
+    font-weight: 200;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight:bold;
 }
 
 button {
@@ -50,11 +55,16 @@ button {
     border: none;
     border-radius: 5px;
     color: #f9faf8;
-    font-weight:600;
+    font-weight: 600;
 }
 
 .quote-area {
     background-color: #e5e7eb;
+    height:450px;
+}
+
+.quote-container {
+    width: 820px
 }
 
 .quote-text {
@@ -82,8 +92,9 @@ button {
 .info-image-parent-container {
     gap: 40px;
 }
+
 .nav-items-flex {
-    gap:20px;
+    gap: 20px;
 }
 
 .image-container {
@@ -96,6 +107,25 @@ button {
 
 .image-subtext {
     text-align: center;
+}
+
+.author {
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 20px;
+}
+.cta-container {
+height:400px;
+}
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    height:50%;
+    width: 65%;
+    color: #e5e7eb;
+}
+.cta-btn {
+border:solid 2px #e5e7eb;
 }
 /*might be used for flex stuff later*/
 /*.nav-item {

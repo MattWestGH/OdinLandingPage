@@ -2,6 +2,9 @@
 <head>
     <title>Odin Landing Page</title>
     <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -42,16 +45,27 @@
             </div>
         </div>
     </div>
-    <div class="quote-area flex-container flex-column">
-        <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up a space, or maybe people will actually read it. Who knows? All i know its that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
+    <div class="quote-area flex-container flex-center">
+        <div class="flex-container flex-column quote-container">
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up a space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
+            <div class="flex-container">
+                <p class="author">-Thor, God of Thunder</p>
+            </div>
+        </div>
     </div>
     <div>
 
-        <div>
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button over there!</p>
-            <button>Sign up</button>
+        <div class="cta-container flex-container flex-center">
+            <div class="call-to-action flex-container flex-center">
+                <div class="flex-container flex-center flex-column">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button over there!</p>
+                </div>
+                <div class="flex-container flex-center">
+                    <button class="cta-btn">Sign up</button>
+                </div>
+            </div>
+
         </div>
     </div>
     <footer class="flex-container flex-center">Copyright © The Odin Project 2021</footer>
