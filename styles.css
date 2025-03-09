@@ -1,0 +1,45 @@
+* {
+    font-family: roboto;
+    border:1px solid red;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    background-color: #1F2937;
+}
+
+.hero-text-main {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero-text-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header-logo {
+    font-size:24px;
+    color: #f9faf8;
+}
+
