@@ -1,6 +1,5 @@
 * {
-    font-family: roboto;
-    border:1px solid red;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -11,19 +10,17 @@ body {
     margin: 0px;
 }
 
-.navbar {
-    display: flex;
-}
-
 .flex-container {
     display: flex;
 }
 
-footer {
+.flex-center {
     justify-content: center;
     align-items: center;
+}
+
+footer {
     width: 100%;
-    position: fixed;
     bottom: 0;
     height: 60px;
     background-color: #1F2937;
@@ -34,12 +31,74 @@ footer {
     font-weight: 900;
     font-size: 48px;
 }
+
 .hero-text-secondary {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight:300;
 }
+
 .header-logo {
-    font-size:24px;
+    font-size: 24px;
     color: #f9faf8;
 }
 
+button {
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight:600;
+}
+
+.quote-area {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info-image-parent-container {
+    gap: 40px;
+}
+.nav-items-flex {
+    gap:20px;
+}
+
+.image-container {
+    width: 150px
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.image-subtext {
+    text-align: center;
+}
+/*might be used for flex stuff later*/
+/*.nav-item {
+    color: #e5e7eb;
+}
+*/
