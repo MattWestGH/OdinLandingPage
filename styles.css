@@ -8,6 +8,26 @@
     background-color: #1F2937;
 }
 
+.header-container {
+    margin: 0px 210px 0px 210px;
+    padding: 0px 0px 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.navbar {
+    justify-content: space-between;
+    margin: 0px 0px 90px 0px;
+}
+
+.nav-item {
+    font-weight: 300;
+}
+
 body {
     margin: 0px;
 }
@@ -30,41 +50,56 @@ footer {
     font-weight: 200;
 }
 
+.hero-cont {
+    justify-content: space-between;
+}
+
+.hero-text-cont {
+    width: 450px;
+}
+
 .hero-text-main {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .hero-text-secondary {
     color: #e5e7eb;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
+    padding: 0px;
 }
 
-.header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight:bold;
+.image-placeholder {
+    width: 50%;
+    background-color: #6D747D;
+}
+
+.img-placeholder-text {
+    color: #F9FAF8;
 }
 
 button {
     background-color: #3882f6;
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 120px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #f9faf8;
     font-weight: 600;
+    font-size: 16px;
 }
 
 .quote-area {
     background-color: #e5e7eb;
-    height:450px;
+    height: 450px;
 }
 
 .quote-container {
-    width: 820px
+    width: 780px;
 }
 
 .quote-text {
@@ -72,6 +107,22 @@ button {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+    margin: 10px 0px 0px 0px
+}
+
+.auth-cont {
+    justify-content: flex-end;
+}
+
+.author {
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 23px;
+    margin: 0px 0px 0px 0px;
+}
+
+.info-cont {
+    margin: 0px 0px 100px 0px;
 }
 
 .info-header {
@@ -89,8 +140,14 @@ button {
     border-radius: 10px;
 }
 
+.image-subtext {
+    text-align: center;
+    font-weight: 400;
+    color: #1f2937;
+}
+
 .info-image-parent-container {
-    gap: 40px;
+    gap: 60px;
 }
 
 .nav-items-flex {
@@ -105,30 +162,33 @@ button {
     flex-direction: column;
 }
 
-.image-subtext {
-    text-align: center;
+
+.cta-container {
+    height: 400px;
 }
 
-.author {
-    font-weight: bold;
-    color: #1f2937;
-    font-size: 20px;
-}
-.cta-container {
-height:400px;
-}
 .call-to-action {
+    padding: 0px 100px;
+    justify-content:space-between;
     background-color: #3882f6;
     border-radius: 8px;
-    height:50%;
-    width: 65%;
+    height: 38%;
+    width: 50%;
     color: #e5e7eb;
 }
+.cta-text-cont {
+    text-align:left;
+}
+.cta-header {
+    margin:0px;
+    font-size:25px;
+}
+.cta-text {
+    margin: 0px;
+    font-size:18px;
+    
+}
+
 .cta-btn {
-border:solid 2px #e5e7eb;
+    border: solid 2px #e5e7eb;
 }
-/*might be used for flex stuff later*/
-/*.nav-item {
-    color: #e5e7eb;
-}
-*/
